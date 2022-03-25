@@ -1,0 +1,6 @@
+contracts
+build
+coverage
+artifacts
+cache
+typechain
