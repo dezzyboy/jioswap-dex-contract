@@ -21,7 +21,7 @@ library JioswapLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'4d2aa46a43c997a6659df1acaaa2771acdbfcba47edb77e97a97903a44c49d80' // init code hash
+                hex'6fbfe817b4f82e4187fbe8b05f45694fa0213a0710cc7fad1189418b9da7a7c0' // init code hash
             ))));
     }
 

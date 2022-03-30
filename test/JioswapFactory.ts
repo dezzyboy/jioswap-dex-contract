@@ -69,7 +69,7 @@ describe('JioswapFactory', () => {
   it('getCreationCode', async () => {
     // Notice! If creation code changes, JioswapLibrary.pairFor code should be changed too.
     expect(await factory.getCreationCode()).to.be.eq(
-      '0x4d2aa46a43c997a6659df1acaaa2771acdbfcba47edb77e97a97903a44c49d80',
+      '0x6fbfe817b4f82e4187fbe8b05f45694fa0213a0710cc7fad1189418b9da7a7c0',
     );
   });
 });

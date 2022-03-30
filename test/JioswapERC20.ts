@@ -28,8 +28,8 @@ describe('JioswapERC20', () => {
 
   it('name, symbol, decimals, totalSupply, balanceOf, DOMAIN_SEPARATOR, PERMIT_TYPEHASH', async () => {
     const name = await token.name();
-    expect(name).to.eq('JioswapDex');
-    expect(await token.symbol()).to.eq('JioDex');
+    expect(name).to.eq('JioswapDex Lps');
+    expect(await token.symbol()).to.eq('JIO-LP');
     expect(await token.decimals()).to.eq(18);
     expect(await token.totalSupply()).to.eq(TOTAL_SUPPLY);
     expect(await token.balanceOf(await wallet.getAddress())).to.eq(TOTAL_SUPPLY);

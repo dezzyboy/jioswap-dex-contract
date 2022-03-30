@@ -6,8 +6,8 @@ import './libraries/SafeMath.sol';
 contract JioswapERC20 is IJioswapERC20 {
     using SafeMath for uint;
 
-    string public constant override name = 'JioswapDex';
-    string public constant override symbol = 'JioDex';
+    string public constant override name = 'JioswapDex Lps';
+    string public constant override symbol = 'JIO-LP';
     uint8 public constant override decimals = 18;
     uint  public override totalSupply;
     mapping(address => uint) public override balanceOf;
